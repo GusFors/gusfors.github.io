@@ -3,6 +3,11 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="{{ site.description }}">
+    <meta property="og:title" content="Gustav Forselius" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="http://gusfors.github.io/" />
+<meta property="og:image" content="http://gusfors.github.io/pics/screenshot.jpg" />
   {% seo %}
   <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
   <link rel="alternate" type="application/rss+xml"
@@ -10,6 +15,7 @@
   {% if jekyll.environment == 'production' and site.google_analytics %}
     {% include google-analytics.html %}
   {% endif %}
+  <link type="text/plain" rel="author" href="/humans.txt" />
   <!-- START OF RELEVANT PART -->
   <script async src="https://just-comments.com/w.js"></script>
   <!-- END OF RELEVANT PART -->
