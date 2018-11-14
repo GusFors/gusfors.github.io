@@ -1,5 +1,5 @@
 ---
-layout: blogg
+layout: page
 title: About
 permalink: /about/
 ---

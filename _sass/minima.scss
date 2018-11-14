@@ -10,20 +10,21 @@ $base-line-height: 1.6 !default;
 
 $spacing-unit:     30px !default;
 
-$text-color:       rgb(180, 179, 179) ;
+$text-color:       rgb(201, 201, 201) ;
 $background-color: #2c2a2a !default;
 $brand-color:      #df9d25 !default;
 
 $grey-color:       #ffffff !default;
 $grey-color-light: lighten($grey-color, 40%) !default;
-$grey-color-dark:  darken($grey-color, 25%) !default;
+$grey-color-dark:  darken($grey-color, 55%) !default;
 
 $table-text-align: left !default;
 
 // Width of the content area
-$content-width:    1000px !default;
+$content-width:    50% !default;
 h1, h2 {
-  color: aqua
+  color: rgb(46, 206, 206);
+  padding: 0px
 }
 #site-title {
   font-size: $base-font-size * 2.2;
@@ -35,11 +36,64 @@ h1, h2 {
 
   &,
   &:visited {
-    color: $grey-color-dark;
+    color: orange;
   }
 }
 $on-palm:          600px !default;
 $on-laptop:        800px !default;
+
+
+
+.page-content {
+  
+  
+  padding: $spacing-unit 0;
+  flex: 1;
+  
+}
+
+.home {
+  padding-top: -100px;
+  
+  background: #2c2a2a 
+}
+
+.site-header {
+  background-image: url("../pics/skog2.jpg");
+  background-position: center;
+  background-size: cover;
+  
+  
+  height: 170px
+}
+
+.page-link {
+  background-color: rgba(29, 27, 27, 0.9);
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-bottom: 4px;
+  box-shadow: 0 5px 0 #1b1a1a;
+  opacity: 0.8;
+}
+
+.jcCommentsHeader {
+  color: orange
+}
+
+.jcTextInput {
+  color: #df9d25;
+  background-color: #2c2a2a;
+  box-shadow: 5px 5px 5px 5px orange
+}
+
+.jcTextareaContainer {
+  box-shadow: 5px 5px 5px 5px orange;
+  background-color: #2c2a2a
+}
+
+.jcToggle {
+  box-shadow: 5px 5px 5px 5px orange;
+}
 
 // Use media queries like this:
 // @include media-query($on-palm) {

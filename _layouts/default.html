@@ -1,18 +1,24 @@
+---
+layout: default
+comments: true
+---
 <!DOCTYPE html>
-<html lang="en">
-  {% include head.html%}
-<body>
-  {% include navhead.html%}
-<main class="page-content" aria-label="Content">
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {%- include head.html -%}
+
+  <body>
+
+    {%- include header.html -%}
+
+    <main class="page-content" aria-label="Content">
       <div class="wrapper">
-        <div class="home">
-          <h1>Hallå eller!?</h1>
-
-    </div>
-
+        {{ content }}
       </div>
     </main>
-    {% include footer.html%}
-</body>
+
+    {%- include footer.html -%}
+
+  </body>
 
 </html>
