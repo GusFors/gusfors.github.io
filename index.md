@@ -3,8 +3,8 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: default
-
+exclude_from_nav: true
 ---
-#  Hallå världen!
+<h2>  Hallå världen! </h2>
 Hallå, det här är min sida för kursen 1dv022. Här kommer jag lägga upp saker relaterade till kursen och kanske även annat material i framtiden. Klicka på blogg om du vill läsa mina inlägg eller om mig om du vill veta mer om mig.
 
