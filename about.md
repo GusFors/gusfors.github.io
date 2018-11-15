@@ -1,9 +1,9 @@
 ---
-layout: page
+layout: default
 title: Om mig
 permalink: /about/
 ---
-
+## Om mig
 Hallå världen, jag heter Gustav och studerar webbprogrammering vid Linnéuniversitetet. Innan jag började utbildningen så hade jag inte programmerat så mycket mer än att skriva "hello world" i konsolen och en enkel if-sats, så det har blivit mycket att ta in under de här första veckorna. Känns som att när man programmerar så växlar man mellan att känna sig som en gud eller en fiskmås. Finns inget däremellan.
 
 Jag är för tillfället 21 år gammal och bor i Stockholm. När jag inte sitter vid datorn så är mina största intressen musik och att träna.
